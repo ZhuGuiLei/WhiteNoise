@@ -18,10 +18,10 @@ target 'WhiteNoise' do
 #  # 下载和缓存网络图片
   pod 'Kingfisher'
 #  图片管理
-  pod 'SwiftGen'
+#  pod 'SwiftGen'
   pod 'R.swift'
 #  # 键盘
-#  pod 'IQKeyboardManagerSwift'
+  pod 'IQKeyboardManagerSwift'
   pod 'SVProgressHUD'
   pod 'MBProgressHUD'
 #  pod 'SwiftKeychainWrapper'
