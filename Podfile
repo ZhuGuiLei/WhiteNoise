@@ -9,24 +9,25 @@ target 'WhiteNoise' do
 #  AlamofireObjectMapper
   pod 'Alamofire'
 #  数据解析
-#  pod 'SwiftyJSON'
+  pod 'SwiftyJSON'
 #  映射为model
   pod 'HandyJSON'
 #
 #  # 约束
-#  pod 'SnapKit'
+  pod 'SnapKit'
 #  # 下载和缓存网络图片
-#  pod 'Kingfisher'
+  pod 'Kingfisher'
 #  图片管理
-#  pod 'SwiftGen', '~> 6.0'
+  pod 'SwiftGen'
+  pod 'R.swift'
 #  # 键盘
 #  pod 'IQKeyboardManagerSwift'
-#  pod 'SVProgressHUD'
-#  pod 'MBProgressHUD'
+  pod 'SVProgressHUD'
+  pod 'MBProgressHUD'
 #  pod 'SwiftKeychainWrapper'
-#  pod 'MJRefresh'
-#  pod 'DZNEmptyDataSet'
-#  pod 'SPPageMenu', '~> 3.5.0'
+  pod 'MJRefresh'
+  pod 'DZNEmptyDataSet'
+  pod 'SPPageMenu'
   
   #友盟相关
 #  pod 'UMCCommon'

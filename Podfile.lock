@@ -1,24 +1,52 @@
 PODS:
   - Alamofire (4.9.1)
+  - DZNEmptyDataSet (1.8.1)
   - HandyJSON (5.0.2)
   - HBDNavigationBar (1.7.7)
+  - Kingfisher (4.10.1)
+  - MBProgressHUD (1.2.0)
+  - MJRefresh (3.5.0)
+  - SnapKit (4.2.0)
+  - SPPageMenu (3.5.0)
+  - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
   - Alamofire
+  - DZNEmptyDataSet
   - HandyJSON
   - HBDNavigationBar
+  - Kingfisher
+  - MBProgressHUD
+  - MJRefresh
+  - SnapKit
+  - SPPageMenu
+  - SVProgressHUD
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - DZNEmptyDataSet
     - HandyJSON
     - HBDNavigationBar
+    - Kingfisher
+    - MBProgressHUD
+    - MJRefresh
+    - SnapKit
+    - SPPageMenu
+    - SVProgressHUD
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
   HBDNavigationBar: 6ba38b99637039c831ce460364d5398f29fa0685
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SPPageMenu: da182aafcec55719d5c326103cc7716c1e48f311
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: ecf7142725c3ea3179661caca4254e88f1ed4e37
+PODFILE CHECKSUM: 7cb08192079c8c253dd868d9f9c02095f69d88b9
 
 COCOAPODS: 1.9.3

@@ -144,6 +144,7 @@
 			buildConfigurationList = A57DCFE924F3E7BE00CF3540 /* Build configuration list for PBXNativeTarget "WhiteNoise" */;
 			buildPhases = (
 				2F5B0E562B4A471942984B2A /* [CP] Check Pods Manifest.lock */,
+				A57DD00824F405D700CF3540 /* ShellScript */,
 				A57DCFD124F3E7AD00CF3540 /* Sources */,
 				A57DCFD224F3E7AD00CF3540 /* Frameworks */,
 				A57DCFD324F3E7AD00CF3540 /* Resources */,
@@ -228,6 +229,26 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
+		};
+		A57DD00824F405D700CF3540 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"",
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
 		};
 		FE8DF47D71A867DC76338D46 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
