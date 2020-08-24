@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A57DCFD924F3E7AE00CF3540 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57DCFD824F3E7AE00CF3540 /* AppDelegate.swift */; };
+		A57DCFDD24F3E7AE00CF3540 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57DCFDC24F3E7AE00CF3540 /* ViewController.swift */; };
+		A57DCFE024F3E7AE00CF3540 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57DCFDE24F3E7AE00CF3540 /* Main.storyboard */; };
+		A57DCFE224F3E7BE00CF3540 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A57DCFE124F3E7BE00CF3540 /* Assets.xcassets */; };
+		A57DCFE524F3E7BE00CF3540 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57DCFE324F3E7BE00CF3540 /* LaunchScreen.storyboard */; };
+		A57DCFF124F3EFBB00CF3540 /* WNHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57DCFF024F3EFBB00CF3540 /* WNHomeVC.swift */; };
+		A57DD00324F3F47A00CF3540 /* MainNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57DD00224F3F47A00CF3540 /* MainNavController.swift */; };
+		B882D7F2089F82349E33D481 /* Pods_WhiteNoise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EE548DC67D237BEFB82DAB6 /* Pods_WhiteNoise.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2EE548DC67D237BEFB82DAB6 /* Pods_WhiteNoise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhiteNoise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		548C851A63A1225084A66F72 /* Pods-WhiteNoise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhiteNoise.debug.xcconfig"; path = "Target Support Files/Pods-WhiteNoise/Pods-WhiteNoise.debug.xcconfig"; sourceTree = "<group>"; };
+		9AA88F7A8BD76E61C5C75FE7 /* Pods-WhiteNoise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhiteNoise.release.xcconfig"; path = "Target Support Files/Pods-WhiteNoise/Pods-WhiteNoise.release.xcconfig"; sourceTree = "<group>"; };
+		A57DCFD524F3E7AE00CF3540 /* WhiteNoise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhiteNoise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A57DCFD824F3E7AE00CF3540 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A57DCFDC24F3E7AE00CF3540 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A57DCFDF24F3E7AE00CF3540 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A57DCFE124F3E7BE00CF3540 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A57DCFE424F3E7BE00CF3540 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A57DCFE624F3E7BE00CF3540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A57DCFF024F3EFBB00CF3540 /* WNHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WNHomeVC.swift; sourceTree = "<group>"; };
+		A57DCFFE24F3F44300CF3540 /* WhiteNoise-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WhiteNoise-Bridging-Header.h"; sourceTree = "<group>"; };
+		A57DD00224F3F47A00CF3540 /* MainNavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A57DCFD224F3E7AD00CF3540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B882D7F2089F82349E33D481 /* Pods_WhiteNoise.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B6580274A0682504F500EF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EE548DC67D237BEFB82DAB6 /* Pods_WhiteNoise.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A57DCFCC24F3E7AD00CF3540 = {
+			isa = PBXGroup;
+			children = (
+				A57DCFD724F3E7AE00CF3540 /* WhiteNoise */,
+				A57DCFD624F3E7AE00CF3540 /* Products */,
+				AAA577EDD598D372C36A9399 /* Pods */,
+				1B6580274A0682504F500EF5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A57DCFD624F3E7AE00CF3540 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A57DCFD524F3E7AE00CF3540 /* WhiteNoise.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A57DCFD724F3E7AE00CF3540 /* WhiteNoise */ = {
+			isa = PBXGroup;
+			children = (
+				A57DCFF724F3F09F00CF3540 /* Base */,
+				A57DCFF624F3F08800CF3540 /* Network */,
+				A57DCFEF24F3EF1400CF3540 /* Show */,
+				A57DCFEC24F3EEA800CF3540 /* Supporting Files */,
+			);
+			path = WhiteNoise;
+			sourceTree = "<group>";
+		};
+		A57DCFEC24F3EEA800CF3540 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A57DCFD824F3E7AE00CF3540 /* AppDelegate.swift */,
+				A57DCFDC24F3E7AE00CF3540 /* ViewController.swift */,
+				A57DCFDE24F3E7AE00CF3540 /* Main.storyboard */,
+				A57DCFE124F3E7BE00CF3540 /* Assets.xcassets */,
+				A57DCFE324F3E7BE00CF3540 /* LaunchScreen.storyboard */,
+				A57DCFE624F3E7BE00CF3540 /* Info.plist */,
+				A57DCFFE24F3F44300CF3540 /* WhiteNoise-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A57DCFEF24F3EF1400CF3540 /* Show */ = {
+			isa = PBXGroup;
+			children = (
+				A57DCFF524F3F07600CF3540 /* View */,
+				A57DCFF024F3EFBB00CF3540 /* WNHomeVC.swift */,
+			);
+			path = Show;
+			sourceTree = "<group>";
+		};
+		A57DCFF524F3F07600CF3540 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A57DCFF624F3F08800CF3540 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A57DCFF724F3F09F00CF3540 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A57DD00224F3F47A00CF3540 /* MainNavController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		AAA577EDD598D372C36A9399 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				548C851A63A1225084A66F72 /* Pods-WhiteNoise.debug.xcconfig */,
+				9AA88F7A8BD76E61C5C75FE7 /* Pods-WhiteNoise.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A57DCFD424F3E7AD00CF3540 /* WhiteNoise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A57DCFE924F3E7BE00CF3540 /* Build configuration list for PBXNativeTarget "WhiteNoise" */;
+			buildPhases = (
+				2F5B0E562B4A471942984B2A /* [CP] Check Pods Manifest.lock */,
+				A57DCFD124F3E7AD00CF3540 /* Sources */,
+				A57DCFD224F3E7AD00CF3540 /* Frameworks */,
+				A57DCFD324F3E7AD00CF3540 /* Resources */,
+				FE8DF47D71A867DC76338D46 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhiteNoise;
+			productName = WhiteNoise;
+			productReference = A57DCFD524F3E7AE00CF3540 /* WhiteNoise.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A57DCFCD24F3E7AD00CF3540 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WN;
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = layne_zhu;
+				TargetAttributes = {
+					A57DCFD424F3E7AD00CF3540 = {
+						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
+					};
+				};
+			};
+			buildConfigurationList = A57DCFD024F3E7AD00CF3540 /* Build configuration list for PBXProject "WhiteNoise" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A57DCFCC24F3E7AD00CF3540;
+			productRefGroup = A57DCFD624F3E7AE00CF3540 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A57DCFD424F3E7AD00CF3540 /* WhiteNoise */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A57DCFD324F3E7AD00CF3540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57DCFE524F3E7BE00CF3540 /* LaunchScreen.storyboard in Resources */,
+				A57DCFE224F3E7BE00CF3540 /* Assets.xcassets in Resources */,
+				A57DCFE024F3E7AE00CF3540 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F5B0E562B4A471942984B2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WhiteNoise-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE8DF47D71A867DC76338D46 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhiteNoise/Pods-WhiteNoise-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhiteNoise/Pods-WhiteNoise-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhiteNoise/Pods-WhiteNoise-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A57DCFD124F3E7AD00CF3540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57DD00324F3F47A00CF3540 /* MainNavController.swift in Sources */,
+				A57DCFF124F3EFBB00CF3540 /* WNHomeVC.swift in Sources */,
+				A57DCFDD24F3E7AE00CF3540 /* ViewController.swift in Sources */,
+				A57DCFD924F3E7AE00CF3540 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A57DCFDE24F3E7AE00CF3540 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A57DCFDF24F3E7AE00CF3540 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A57DCFE324F3E7BE00CF3540 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A57DCFE424F3E7BE00CF3540 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A57DCFE724F3E7BE00CF3540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A57DCFE824F3E7BE00CF3540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A57DCFEA24F3E7BE00CF3540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 548C851A63A1225084A66F72 /* Pods-WhiteNoise.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8K558ZXTX5;
+				INFOPLIST_FILE = WhiteNoise/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lsz.WhiteNoise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WhiteNoise/WhiteNoise-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A57DCFEB24F3E7BE00CF3540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AA88F7A8BD76E61C5C75FE7 /* Pods-WhiteNoise.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8K558ZXTX5;
+				INFOPLIST_FILE = WhiteNoise/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lsz.WhiteNoise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WhiteNoise/WhiteNoise-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A57DCFD024F3E7AD00CF3540 /* Build configuration list for PBXProject "WhiteNoise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A57DCFE724F3E7BE00CF3540 /* Debug */,
+				A57DCFE824F3E7BE00CF3540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A57DCFE924F3E7BE00CF3540 /* Build configuration list for PBXNativeTarget "WhiteNoise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A57DCFEA24F3E7BE00CF3540 /* Debug */,
+				A57DCFEB24F3E7BE00CF3540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A57DCFCD24F3E7AD00CF3540 /* Project object */;
+}

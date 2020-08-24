@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-WhiteNoise/Pods-WhiteNoise-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/HBDNavigationBar/HBDNavigationBar.framework
+${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework

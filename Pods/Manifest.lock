@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.9.1)
+  - HandyJSON (5.0.2)
+  - HBDNavigationBar (1.7.7)
+
+DEPENDENCIES:
+  - Alamofire
+  - HandyJSON
+  - HBDNavigationBar
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - HandyJSON
+    - HBDNavigationBar
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  HBDNavigationBar: 6ba38b99637039c831ce460364d5398f29fa0685
+
+PODFILE CHECKSUM: ecf7142725c3ea3179661caca4254e88f1ed4e37
+
+COCOAPODS: 1.9.3
