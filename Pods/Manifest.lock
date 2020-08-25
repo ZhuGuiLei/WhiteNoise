@@ -3,9 +3,13 @@ PODS:
   - DZNEmptyDataSet (1.8.1)
   - HandyJSON (5.0.2)
   - HBDNavigationBar (1.7.7)
+  - IQKeyboardManagerSwift (6.5.6)
   - Kingfisher (4.10.1)
   - MBProgressHUD (1.2.0)
   - MJRefresh (3.5.0)
+  - R.swift (5.2.2):
+    - R.swift.Library (~> 5.2.0)
+  - R.swift.Library (5.2.0)
   - SnapKit (4.2.0)
   - SPPageMenu (3.5.0)
   - SVProgressHUD (2.2.5)
@@ -16,9 +20,11 @@ DEPENDENCIES:
   - DZNEmptyDataSet
   - HandyJSON
   - HBDNavigationBar
+  - IQKeyboardManagerSwift
   - Kingfisher
   - MBProgressHUD
   - MJRefresh
+  - R.swift
   - SnapKit
   - SPPageMenu
   - SVProgressHUD
@@ -30,9 +36,12 @@ SPEC REPOS:
     - DZNEmptyDataSet
     - HandyJSON
     - HBDNavigationBar
+    - IQKeyboardManagerSwift
     - Kingfisher
     - MBProgressHUD
     - MJRefresh
+    - R.swift
+    - R.swift.Library
     - SnapKit
     - SPPageMenu
     - SVProgressHUD
@@ -43,14 +52,17 @@ SPEC CHECKSUMS:
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
   HBDNavigationBar: 6ba38b99637039c831ce460364d5398f29fa0685
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
   Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  R.swift: 7c52cdc57a66840ffe6cbd8a823d732059d42a32
+  R.swift.Library: 5ba4f1631300caf9a4d890186930da85d540769d
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
   SPPageMenu: da182aafcec55719d5c326103cc7716c1e48f311
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
-PODFILE CHECKSUM: 10eed2ed42ace80417392073f9023a1cf8e0342e
+PODFILE CHECKSUM: 0ed449a8b0638bbcf85e9c947166a1f729ceeb59
 
 COCOAPODS: 1.9.3
