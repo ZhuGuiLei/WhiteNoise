@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0A28658E965D961B27B0582695FBB2FF"
-               BuildableName = "Pods_WhiteNoise.framework"
-               BlueprintName = "Pods-WhiteNoise"
+               BlueprintIdentifier = "B12748D8506CB48696BD90F2CA4F4E38"
+               BuildableName = "Rswift.framework"
+               BlueprintName = "R.swift.Library"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
