@@ -24,25 +24,17 @@ target 'WhiteNoise' do
   pod 'IQKeyboardManagerSwift'
   pod 'SVProgressHUD'
   pod 'MBProgressHUD'
-#  pod 'SwiftKeychainWrapper'
+  pod 'SwiftKeychainWrapper'
   pod 'MJRefresh'
   pod 'DZNEmptyDataSet'
   pod 'SPPageMenu'
-  
-  #友盟相关
-#  pod 'UMCCommon'
-#  pod 'UMCAnalytics'
-#  pod 'UMCErrorCatch'
-#  pod 'UMCPush'
-#  pod 'UMCSecurityPlugins'
-#  # 集成微信(精简版0.2M)
-#  pod 'UMCShare/Social/ReducedWeChat'
-#  # 集成QQ/QZone/TIM(精简版0.5M)
-#  pod 'UMCShare/Social/ReducedQQ'
   
   # 图片
 #  pod 'TZImagePickerController'
   # 导航栏
   pod 'HBDNavigationBar'
+  
+  pod 'WechatOpenSDK'
+  
   
 end

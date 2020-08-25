@@ -13,7 +13,9 @@ PODS:
   - SnapKit (4.2.0)
   - SPPageMenu (3.5.0)
   - SVProgressHUD (2.2.5)
+  - SwiftKeychainWrapper (3.4.0)
   - SwiftyJSON (5.0.0)
+  - WechatOpenSDK (1.8.7.1)
 
 DEPENDENCIES:
   - Alamofire
@@ -28,7 +30,9 @@ DEPENDENCIES:
   - SnapKit
   - SPPageMenu
   - SVProgressHUD
+  - SwiftKeychainWrapper
   - SwiftyJSON
+  - WechatOpenSDK
 
 SPEC REPOS:
   trunk:
@@ -45,7 +49,9 @@ SPEC REPOS:
     - SnapKit
     - SPPageMenu
     - SVProgressHUD
+    - SwiftKeychainWrapper
     - SwiftyJSON
+    - WechatOpenSDK
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
@@ -61,8 +67,10 @@ SPEC CHECKSUMS:
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
   SPPageMenu: da182aafcec55719d5c326103cc7716c1e48f311
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftKeychainWrapper: 6fc49fbf7d4a6b0772917acb0e53a1639f6078d6
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  WechatOpenSDK: 6a4d1436c15b3b5fe2a0bd383f3046010186da44
 
-PODFILE CHECKSUM: 0ed449a8b0638bbcf85e9c947166a1f729ceeb59
+PODFILE CHECKSUM: 46580db5b2b70409902a41ff9e0713c16b3d510a
 
 COCOAPODS: 1.9.3

@@ -20,6 +20,14 @@ class WNHomeVC: UIViewController {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         let vc = ViewController.init()
         navigationController?.pushViewController(vc, animated: true)
+        
+        
+        GLApp?.wx_sendAuthRequest()
+        WNNetwork.request(url: "api/app/init", params: nil, success: { (result: BaseDataModel<DataModel>) in
+            
+        }) { (code, msg, err) in
+            
+        }
     }
     /*
     // MARK: - Navigation
