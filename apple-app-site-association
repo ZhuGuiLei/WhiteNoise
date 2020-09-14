@@ -4,7 +4,7 @@
         "details": [
             {
                 "appID": "GG3CDAWJ49.com.blulioncn.deep-sleep",
-                "paths": [ "*" ]
+                "paths": [ "*", "/*", "/app/*" ]
             }
         ]
     }
